@@ -26,5 +26,5 @@ if __name__ == '__main__':
                                   "completed": TASK_COMPLETED_STATUS,
                                   "username": USERNAME})
     """print(dict_data)"""
-    with open('{}.json'.format(USER_ID), 'w') as l:
-        json.dump(dict_data, l)
+    with open('{}.json'.format(USER_ID), 'w') as f:
+        json.dump(dict_data, f)
